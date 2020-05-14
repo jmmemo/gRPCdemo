@@ -16,7 +16,7 @@ var u = UserInfoService{}
 func (s *UserInfoService) GetUserInfo(ctx context.Context, req *pb.UserRequest) (resp *pb.UserResponse, err error) {
 	name := req.Name
 
-	if name == "zs" {
+	if name == "kiri" {
 		resp = &pb.UserResponse{
 			Id:    1,
 			Name:  name,

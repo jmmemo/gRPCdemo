@@ -16,7 +16,7 @@ func main() {
 
 	client := pb.NewUserInfoServiceClient(conn)
 	req := new(pb.UserRequest)
-	req.Name = "zs"
+	req.Name = "kiri"
 
 	response, err := client.GetUserInfo(context.Background(), req)
 	if err != nil {
